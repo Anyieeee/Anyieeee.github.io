@@ -4,85 +4,126 @@
   
   
   <entry>
-    <title>Blog-01搭建过程</title>
-    <link href="/2026-03-12-blog-%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B/"/>
-    <url>/2026-03-12-blog-%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B/</url>
+    <title>🧩 杂项01：那些以后会补全的零碎记录</title>
+    <link href="/2026-03-12-06blog_others_01/"/>
+    <url>/2026-03-12-06blog_others_01/</url>
     
     <content type="html"><![CDATA[]]></content>
     
     
     <categories>
       
-      <category>Blog搭建</category>
+      <category>🚀 从零到一：我的博客拓荒笔记</category>
       
-      <category>01-环境配置</category>
+      <category>🎒 第三章：未完待续，一点小小的灵感</category>
       
     </categories>
     
-    
-    <tags>
-      
-      <tag>Blog</tag>
-      
-    </tags>
     
   </entry>
   
   
   
   <entry>
-    <title>Blog常用指令-Hexo篇</title>
-    <link href="/2026-03-12-blog%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4-hexo%E7%AF%87/"/>
-    <url>/2026-03-12-blog%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4-hexo%E7%AF%87/</url>
+    <title>📜 表达载体：Markdown 的语法拾遗与避坑</title>
+    <link href="/2026-03-12-05blog_written_markdown/"/>
+    <url>/2026-03-12-05blog_written_markdown/</url>
     
-    <content type="html"><![CDATA[<p>Hexo：</p><ol><li><code>hexo init [folder]</code><br>在当前目录初始化一个名为folder的博客项目；</li><li><code>hexo new [layout] &lt;title&gt;</code><br>创建一篇新文章<br>layout：可指定布局，默认为post(文章)，可选draft(草稿)、page(页面)。</li><li><code>hexo generate / hexo g</code><br>将源文件生成静态文件(默认输出到public文件夹)</li><li><code>hexo server / hexo s</code><br>启动本地服务器，默认访问地址 <a href="http://localhost:4000/">http://localhost:4000</a><br><code>-p &lt;port&gt;</code><br>指定端口 (例如<code>hexo s -p 4001</code>，可解决端口被占用问题)</li><li><code>hexo deploy / hexo d</code><br>根据_config.yml中的deploy配置，将生成的静态文件部署到网络(上传)</li><li><code>hexo clean</code><br>清除缓存文件(db.json)和已生成的静态文件(public文件夹)</li><li>组合指令<br>如<code>hexo g;hexo s;hexo d</code><br>先生成静态文件，再启动本地服务器，再上传部署。</li></ol>]]></content>
+    <content type="html"><![CDATA[]]></content>
     
     
     <categories>
       
-      <category>Blog搭建</category>
+      <category>🚀 从零到一：我的博客拓荒笔记</category>
       
-      <category>02-Hexo基础指令</category>
+      <category>✍️ 第二章：磨好笔尖，让创作更顺手</category>
       
     </categories>
     
-    
-    <tags>
-      
-      <tag>Blog</tag>
-      
-      <tag>Hexo</tag>
-      
-    </tags>
     
   </entry>
   
   
   
   <entry>
-    <title>Blog常用指令-Markdown篇</title>
-    <link href="/2026-03-12-blog%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4-makedown%E7%AF%87/"/>
-    <url>/2026-03-12-blog%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4-makedown%E7%AF%87/</url>
+    <title>🔌 写作利器：VS Code 与 Front Matter 插件</title>
+    <link href="/2026-03-12-04blog_written_vscode_front-matter/"/>
+    <url>/2026-03-12-04blog_written_vscode_front-matter/</url>
     
-    <content type="html"><![CDATA[<p>阿萨大大</p>]]></content>
+    <content type="html"><![CDATA[]]></content>
     
     
     <categories>
       
-      <category>Blog搭建</category>
+      <category>🚀 从零到一：我的博客拓荒笔记</category>
       
-      <category>03-Markdown基础指令</category>
+      <category>✍️ 第二章：磨好笔尖，让创作更顺手</category>
       
     </categories>
     
     
-    <tags>
+  </entry>
+  
+  
+  
+  <entry>
+    <title>🎨 风格定调：Fluid 主题的个性化配置</title>
+    <link href="/2026-03-12-03blog_setup_fluid/"/>
+    <url>/2026-03-12-03blog_setup_fluid/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    <categories>
       
-      <tag>Blog</tag>
+      <category>🚀 从零到一：我的博客拓荒笔记</category>
       
-      <tag>Markdown</tag>
+      <category>🏗️ 第一章：打好地基，跑跑框架</category>
       
-    </tags>
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>☁️ 云端部署：将 Hexo 源码挂载到 GitHub</title>
+    <link href="/2026-03-12-02blog_setup_github/"/>
+    <url>/2026-03-12-02blog_setup_github/</url>
+    
+    <content type="html"><![CDATA[<p>挂载到github</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>🚀 从零到一：我的博客拓荒笔记</category>
+      
+      <category>🏗️ 第一章：打好地基，跑跑框架</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>🛠️ 环境搭建：安装 Node、npm 与 Hexo</title>
+    <link href="/2026-03-12-01blog_setup_node_npm_hexo/"/>
+    <url>/2026-03-12-01blog_setup_node_npm_hexo/</url>
+    
+    <content type="html"><![CDATA[<p>这里写的搭建环境。<br>Hexo：</p><ol><li><code>hexo init [folder]</code><br>在当前目录初始化一个名为folder的博客项目；</li><li><code>hexo new [layout] &lt;title&gt;</code><br>创建一篇新文章<br>layout：可指定布局，默认为post(文章)，可选draft(草稿)、page(页面)。</li><li><code>hexo generate / hexo g</code><br>将源文件生成静态文件(默认输出到public文件夹)</li><li><code>hexo server / hexo s</code><br>启动本地服务器，默认访问地址 <a href="http://localhost:4000/">http://localhost:4000</a><br><code>-p &lt;port&gt;</code><br>指定端口 (例如<code>hexo s -p 4001</code>，可解决端口被占用问题)</li><li><code>hexo deploy / hexo d</code><br>根据_config.yml中的deploy配置，将生成的静态文件部署到网络(上传)</li><li><code>hexo clean</code><br>清除缓存文件(db.json)和已生成的静态文件(public文件夹)</li><li>组合指令<br>如<code>hexo g;hexo s;hexo d</code><br>先生成静态文件，再启动本地服务器，再上传部署。</li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>🚀 从零到一：我的博客拓荒笔记</category>
+      
+      <category>🏗️ 第一章：打好地基，跑跑框架</category>
+      
+    </categories>
+    
     
   </entry>
   

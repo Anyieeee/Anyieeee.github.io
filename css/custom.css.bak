@@ -1,0 +1,57 @@
+/* 1. 大容器：强行拉满全宽，去掉干扰边距 */
+.post-prevnext {
+  display: flex !important;
+  justify-content: space-between !important;
+  width: 100% !important;
+  max-width: none !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+/* 2. 左侧盒子 (旧篇)：强制占一半宽度，内容左对齐 */
+.post-next {
+  order: 1 !important;
+  width: 50% !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important; /* 强制靠左 */
+  text-align: left !important;
+}
+
+.post-next a {
+  display: flex !important;
+  flex-direction: row !important; /* 图标在前，标题在后 */
+  margin-left: 0 !important;
+}
+
+/* 3. 右侧盒子 (新篇)：强制占一半宽度，内容右对齐 */
+.post-prev {
+  order: 2 !important;
+  width: 50% !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-end !important; /* 强制靠右 */
+  text-align: right !important;
+}
+
+.post-prev a {
+  display: flex !important;
+  flex-direction: row-reverse !important; /* 标题在前，图标在后 */
+  margin-right: 0 !important;
+}
+
+/* 4. 图标镜像 + 间距修正 */
+.post-prevnext i, 
+.post-prevnext .iconfont {
+  transform: scaleX(-1) !important; /* 镜像翻转箭头 */
+  display: inline-block !important;
+  margin: 0 8px !important;
+}
+
+/* 5. 顶部提示语样式 */
+.post-next:before, .post-prev:before {
+  font-size: 0.85rem;
+  color: #888;
+  margin-bottom: 8px;
+  display: block;
+}
