@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>Blog-01搭建过程</title>
+    <link href="/2026-03-12-blog-%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B/"/>
+    <url>/2026-03-12-blog-%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    <categories>
+      
+      <category>Blog搭建</category>
+      
+      <category>01-环境配置</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Blog</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Blog常用指令-Hexo篇</title>
+    <link href="/2026-03-12-blog%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4-hexo%E7%AF%87/"/>
+    <url>/2026-03-12-blog%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4-hexo%E7%AF%87/</url>
+    
+    <content type="html"><![CDATA[<p>Hexo：</p><ol><li><code>hexo init [folder]</code><br>在当前目录初始化一个名为folder的博客项目；</li><li><code>hexo new [layout] &lt;title&gt;</code><br>创建一篇新文章<br>layout：可指定布局，默认为post(文章)，可选draft(草稿)、page(页面)。</li><li><code>hexo generate / hexo g</code><br>将源文件生成静态文件(默认输出到public文件夹)</li><li><code>hexo server / hexo s</code><br>启动本地服务器，默认访问地址 <a href="http://localhost:4000/">http://localhost:4000</a><br><code>-p &lt;port&gt;</code><br>指定端口 (例如<code>hexo s -p 4001</code>，可解决端口被占用问题)</li><li><code>hexo deploy / hexo d</code><br>根据_config.yml中的deploy配置，将生成的静态文件部署到网络(上传)</li><li><code>hexo clean</code><br>清除缓存文件(db.json)和已生成的静态文件(public文件夹)</li><li>组合指令<br>如<code>hexo g;hexo s;hexo d</code><br>先生成静态文件，再启动本地服务器，再上传部署。</li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>Blog搭建</category>
+      
+      <category>02-Hexo基础指令</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Blog</tag>
+      
+      <tag>Hexo</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Blog常用指令-Markdown篇</title>
+    <link href="/2026-03-12-blog%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4-makedown%E7%AF%87/"/>
+    <url>/2026-03-12-blog%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4-makedown%E7%AF%87/</url>
+    
+    <content type="html"><![CDATA[<p>阿萨大大</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Blog搭建</category>
+      
+      <category>03-Markdown基础指令</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Blog</tag>
+      
+      <tag>Markdown</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="/hello-world/"/>
+    <url>/hello-world/</url>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>测试一下</title>
+    <link href="/2026-03-09-%E6%B5%8B%E8%AF%95%E4%B8%80%E4%B8%8B/"/>
+    <url>/2026-03-09-%E6%B5%8B%E8%AF%95%E4%B8%80%E4%B8%8B/</url>
+    
+    <content type="html"><![CDATA[<h2 id="这是一篇测试内容"><a href="#这是一篇测试内容" class="headerlink" title="这是一篇测试内容"></a>这是一篇测试内容</h2><p>欢迎来到我的博客。<br>这是第一篇测试内容</p><ul><li>one by one<ul><li>这是什么</li></ul></li></ul><h3 id="标题1"><a href="#标题1" class="headerlink" title="标题1"></a>标题1</h3><p>正文怎么写啊</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  
+</search>
